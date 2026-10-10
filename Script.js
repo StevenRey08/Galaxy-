@@ -533,9 +533,8 @@
   setArms(3);
 
   /* ---------- Entrada ---------- */
-  var nm0 = nombre ? nombre : 'ti';
-  reveal($('i1'), 'Hay una galaxia', 0.8, 0.28);
-  reveal($('i2'), 'que existe solo para ' + nm0 + '.', 2.0, 0.3);
+  reveal($('i1'), 'Buenos días, bb,', 0.8, 0.28);
+  reveal($('i2'), 'que tengas un hermoso día.', 2.0, 0.3);
   setTimeout(function () { $('enterwrap').classList.add('show'); }, reduce ? 300 : 5200);
 
   var appearStart = 0, entered = false;
