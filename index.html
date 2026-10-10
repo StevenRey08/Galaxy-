@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#020203">
+<meta name="color-scheme" content="dark">
+<title>Galaxia para my bb</title>
+<meta name="description" content="Una galaxia que existe solo para ti.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23020203'/%3E%3Ccircle cx='16' cy='16' r='3' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="stage"></div>
+
+<svg id="web" aria-hidden="true">
+  <path id="constel" d=""/>
+    <g id="ringg" visibility="hidden">
+        <circle id="ring0" r="15" cx="0" cy="0"/>
+            <circle id="ring1" r="15" cx="0" cy="0">
+                  <animate attributeName="r" values="15;40" dur="1.9s" repeatCount="indefinite"/>
+                        <animate attributeName="opacity" values="0.8;0" dur="1.9s" repeatCount="indefinite"/>
+                            </circle>
+                              </g>
+                              </svg>
+
+                              <header class="title" id="title">
+                                <h1 id="dedic">Para ti</h1>
+                                  <p class="sub" id="sub"></p>
+                                  </header>
+
+                                  <div class="msg" id="msg" role="status" aria-live="polite" aria-hidden="true">
+                                    <p class="eyebrow" id="eyebrow"></p>
+                                      <p class="mtext" id="mtext"></p>
+                                        <p class="msig" id="msig"></p>
+                                          <button id="mclose" type="button">Cerrar</button>
+                                          </div>
+
+                                          <div class="hint" id="hint">Toca las estrellas que más brillan</div>
+
+                                          <div class="panel" id="panel">
+                                            <div class="panel-inner">
+                                                <div class="group">
+                                                      <button id="heart" type="button" aria-pressed="false">Formar corazón</button>
+                                                            <button id="sound" type="button" aria-pressed="true">Sonido</button>
+                                                                </div>
+                                                                    <div class="group arms" id="arms" role="group" aria-label="Número de brazos">
+                                                                          <span class="lbl">Brazos</span>
+                                                                              </div>
+                                                                                  <div class="group">
+                                                                                        <span class="lbl"><label for="speed">Giro</label></span>
+                                                                                              <input id="speed" type="range" min="0" max="3" step="0.05" value="1">
+                                                                                                    <button id="pause" type="button" aria-pressed="false">Pausa</button>
+                                                                                                        </div>
+                                                                                                          </div>
+                                                                                                          </div>
+
+                                                                                                          <div id="intro">
+                                                                                                            <div class="intro-in">
+                                                                                                                <i class="pt"></i>
+                                                                                                                    <p class="l1" id="i1"></p>
+                                                                                                                        <p class="l2" id="i2"></p>
+                                                                                                                            <div class="enter" id="enterwrap">
+                                                                                                                                  <button id="enter" type="button">Entrar</button>
+                                                                                                                                        <p class="note">Mejor con sonido</p>
+                                                                                                                                            </div>
+                                                                                                                                              </div>
+                                                                                                                                              </div>
+
+                                                                                                                                              <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+                                                                                                                                              <script src="script.js"></script>
+                                                                                                                                              </body>
+                                                                                                                                              </html>
