@@ -30,7 +30,7 @@
   var coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
   var $ = function (id) { return document.getElementById(id); };
 
-  $('dedic').textContent = nombre ? 'Para ' + nombre : 'Para ti';
+  $('dedic').textContent = nombre ? 'Para ' + nombre : 'Para Marianne';
 
   function reveal(el, text, base, step) {
     el.textContent = '';
@@ -382,7 +382,7 @@
         var text = final
           ? 'Las encontraste todas. Cada una era una razón, y juntas forman lo único que sí alcanza para decirlo: te amo' + nm + '.'
           : 'Si pudiera ordenar todas las estrellas del cielo, las pondría así: formando lo único que quiero decirte. Te amo' + nm + '.';
-        showMsg(nombre || 'Para ti', text, firma ? '— ' + firma : '', -1);
+        showMsg(nombre || 'Para Marianne', text, firma ? '— ' + firma : '', -1);
       }, 2600);
     } else {
       tPitch = 0.62; tDist = 12.5;
