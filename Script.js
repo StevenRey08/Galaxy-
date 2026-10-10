@@ -1,7 +1,7 @@
 (function () {
   /* ============ PERSONALIZACIÓN ============ */
   var CONFIG = {
-    nombre: '',   // su nombre, por ejemplo 'Valeria'. Vacío = "Para ti"
+    nombre: 'Marianne',   // nombre de la destinataria
     firma: ''     // tu nombre, por ejemplo 'Rey'. Vacío = sin firma
   };
   var MESSAGES = [
